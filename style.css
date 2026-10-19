@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 6rem;
+    color:#4997d0;
+    line-height: 1;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+}
+
+h2 { 
+    color: orange;
+    inline-size: 300px;
+    background-color: blueviolet;
+}
+
+footer {
+    padding:20px;
+    color:#fff;
+    background-color: navy;
+    text-align: center;
+}
+
+p {
+    border-style: solid;
+    border-color:orange;
+    border-width: 40px;
+    background-color: #4997d0;
+    padding: 20px;
+
+
+}
