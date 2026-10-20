@@ -1,3 +1,7 @@
+
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: sans-serif;
     font-size: 1rem;
@@ -16,12 +20,16 @@ header {
 }
 
 h2 { 
+    margin:0px;
     color: orange;
     inline-size: 300px;
     background-color: blueviolet;
 }
-
+ul {
+    margin:100px;
+}
 footer {
+    margin:100px;
     padding:20px;
     color:#fff;
     background-color: navy;
@@ -29,12 +37,14 @@ footer {
 }
 
 p {
-    border:orange 10px solid;
-    border-block-end-width: 50px;
-    border-block-end-color: red;
+    margin-block:30px;
+    margin-inline: 100px;
+    border:orange 20px solid;
     padding: 20px;
     background-color: #021b2d;
     color: #fff;
+    inline-size: 400px;
+    
 
 
 }
