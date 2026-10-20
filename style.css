@@ -29,11 +29,12 @@ footer {
 }
 
 p {
-    border-style: solid;
-    border-color:orange;
-    border-width: 40px;
-    background-color: #4997d0;
+    border:orange 10px solid;
+    border-block-end-width: 50px;
+    border-block-end-color: red;
     padding: 20px;
+    background-color: #021b2d;
+    color: #fff;
 
 
 }
