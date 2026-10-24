@@ -5,7 +5,7 @@
 body {
     font-family: sans-serif;
     font-size: 1rem;
-    line-height: 1.5;
+    line: height 1px;
 }
 
 h1 {
@@ -20,31 +20,23 @@ header {
 }
 
 h2 { 
-    margin:0px;
-    color: orange;
-    inline-size: 300px;
-    background-color: blueviolet;
+    color: orange;   
 }
-ul {
-    margin:100px;
+.accent {
+    color: green;
+    font-size: 1rem;
+    font-style: italic;
 }
+
+#project-page-1 {
+    font-size: 1.5rem;
+    color: red;
+}
+
 footer {
     margin:100px;
     padding:20px;
     color:#fff;
     background-color: navy;
     text-align: center;
-}
-
-p {
-    margin-block:30px;
-    margin-inline: 100px;
-    border:orange 20px solid;
-    padding: 20px;
-    background-color: #021b2d;
-    color: #fff;
-    inline-size: 400px;
-    
-
-
 }
